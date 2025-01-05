@@ -50,4 +50,4 @@ Key Insights:-
 AES-256 encryption provides strong security for files, keeping them safe from unauthorized access. Salt and IV (Initialization Vector) help protect the files by making it harder for attackers to spot patterns. It’s important to use a strong and unique password for the best security. File validation ensures that only valid files are encrypted or decrypted, reducing the chances of errors. The naming system for output files prevents overwriting the original files, making the process safer and easier to use.
 
 OUTPUT OF THE TASK:
-
+![WhatsApp Image 2025-01-05 at 12 15 17_e836f18b](https://github.com/user-attachments/assets/7f792c05-d908-4a97-96e7-b44a32c1f9d7)
