@@ -37,14 +37,16 @@ Technologies Used:-
 
 3. Cryptography Library:
 -PBKDF2HMAC: Derives secure keys using a password and salt for encryption.
+
 -AES-256: Provides robust encryption to safeguard sensitive files.
+
 -CFB Mode: Ensures encryption works on data of any size without requiring block alignment.
 
-4. OS Module: Handles file validation and generates random salt and IV values for added security.
+5. OS Module: Handles file validation and generates random salt and IV values for added security.
 
-5. File Handler Utilities: Validates file existence and dynamically generates output file paths with appropriate suffixes.
+6. File Handler Utilities: Validates file existence and dynamically generates output file paths with appropriate suffixes.
 
-6. Randomization: Uses secure random generation for salts and initialization vectors to ensure unique encryption for every file.
+7. Randomization: Uses secure random generation for salts and initialization vectors to ensure unique encryption for every file.
    
 Key Insights:-
 AES-256 encryption provides strong security for files, keeping them safe from unauthorized access. Salt and IV (Initialization Vector) help protect the files by making it harder for attackers to spot patterns. It’s important to use a strong and unique password for the best security. File validation ensures that only valid files are encrypted or decrypted, reducing the chances of errors. The naming system for output files prevents overwriting the original files, making the process safer and easier to use.
